@@ -1,7 +1,1 @@
-string = 'aba'
-y=[]
-for x in string:
-    if x not in y:
-        y.append(x)
-
-print(y)
+print(*zip([1,2,34],[3,4,5,6]))
